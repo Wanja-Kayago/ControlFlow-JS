@@ -1,0 +1,223 @@
+
+#body{
+    border: solid whitesmoke;
+    background-color: white;
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#topnav{
+    border:solid;
+    border-color: #215B04;
+    background-color:  #215B04;
+    display: flex;
+    gap: 450px;
+    color: white;
+}
+#navbar{
+    border-color: white;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+#container{
+    display: flex;
+    justify-content: space-around;
+}
+#minicont4{
+    object-fit:scale-down;
+}
+#minicont1{
+   display: flex;
+  justify-content: space-between;
+}
+#minicont2{
+    display: flex;
+    gap: 50px;
+}
+#minicont3{
+    display: flex;
+}
+#container1{
+    display: flex;
+ justify-content: space-around;
+}
+#container2{
+    display: block;
+
+}
+#container3{
+    display: flex;
+    justify-content: space-around;
+}
+#minicont5{
+    display: flex;
+}
+#container4{
+    display: flex;
+   justify-content: space-around;
+}
+#container5{
+    background-image: url(images/background\ flower.webp);
+    background-repeat: no-repeat;
+    text-align: center;
+  background-size: cover;
+ 
+}
+#container6{
+    display: flex;
+    justify-content: space-between;
+}
+#container7{
+    display: flex;
+    justify-content: space-between;
+}
+#container8{
+    display: flex;
+    justify-content: space-between;
+}
+#container9{
+    display: flex;
+    justify-content: space-between;
+}
+#container10{
+    display: flex;
+    justify-content: space-between;
+}
+#container11{
+    display: flex;
+    justify-content: space-around;
+    object-fit: contain;
+}
+#footer{
+    display: flex;
+    justify-content: space-around;
+}
+#icons{
+    display: flex;
+    gap: 80px;
+}
+@media all and (min-width:280px) and (max-width:1030px){
+
+    #body{
+        border: solid whitesmoke;
+        background-color: white;
+        width: 300px;
+        height: 300px;
+     
+        
+    }
+    #topnav{
+        border:solid;
+        border-color: #215B04;
+        background-color:  #215B04;
+        display: flex;
+        gap: 450px;
+        color: white;
+    }
+    #navbar{
+        border-color: white;
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        color: black;
+    }
+    #container{
+        display: flex;
+      gap: 10px;
+        flex-wrap: wrap;
+    }
+    #minicont4{
+        object-fit:scale-down;
+    }
+    #minicont1{
+       display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    #minicont2{
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    #minicont3{
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    #container1{
+        display: flex;
+     gap: 10px;
+     flex-wrap: wrap;
+    }
+    #container2{
+        display: block;
+        flex-wrap: wrap;
+    gap: 10px;
+    }
+    #container3{
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    #minicont5{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #container4{
+        display: flex;
+       gap: 10 px;
+       flex-wrap: wrap;
+    }
+    #container5{
+        background-image: url(images/background\ flower.webp);
+        background-repeat: no-repeat;
+        text-align: center;
+      background-size:0%;
+     flex-wrap: wrap;
+
+    }
+    #container6{
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    #container7{
+        display: flex;
+     flex-wrap: wrap;
+    }
+    #container8{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #container9{
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    #container10{
+        display: flex;
+     gap: 10px;
+     flex-wrap: wrap;
+    }
+    #container11{
+        display: flex;
+       flex-wrap: wrap;
+       gap: 10px;
+        object-fit: contain;
+    }
+    #footer{
+        display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    #icons{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+       
+    }
+}
